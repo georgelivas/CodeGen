@@ -10,9 +10,11 @@ public class SpecialCharRange {
     }
 
     public int getFirst() {
+
         return this.first;
     }
     public int getLength() {
+
         return this.length;
     }
 }
