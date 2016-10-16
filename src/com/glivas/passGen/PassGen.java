@@ -122,4 +122,10 @@ public class PassGen {
     public String getPassword() {
         return this.password;
     }
+
+    public static void generateCode (int numOfPasswords) {
+        for (int i = 0; i < numOfPasswords; i++) {
+            System.out.println(new PassGen(4, 4, 4, 4).getPassword());
+        }
+    }
 }
