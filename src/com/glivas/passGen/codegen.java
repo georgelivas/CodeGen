@@ -4,9 +4,6 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-/**
- * Created by dimitrislivas on 28/09/2016.
- */
 public class codegen {
     private JButton generateACodeButton;
 
