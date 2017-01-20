@@ -10,7 +10,6 @@ public class PassGen {
     private static final int NUM_NUMBERS = 4;
     private static final int NUM_LOWER = 4;
     private static final int NUM_UPPER = 4;
-    private static final int NUM_SPECIAL = 4;
 
     private static final int FIRST_NUMBER = 48;
     private static final int TOTAL_NUMBERS = 10;
@@ -125,7 +124,8 @@ public class PassGen {
 
     public static void generateCode (int numOfPasswords) {
         for (int i = 0; i < numOfPasswords; i++) {
-            System.out.println(new PassGen(4, 4, 4, 4).getPassword());
+
+            System.out.println((char)27 + "[36;m" + new PassGen(4, 4, 4, 4).getPassword());
         }
     }
 }
