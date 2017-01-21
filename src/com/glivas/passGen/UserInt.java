@@ -25,6 +25,7 @@ public class UserInt {
 
     public static void startCodeGen () {
         PrintLogo.codeGen(1);
+        System.out.print("Insert number of passwords:");
 
         Scanner sc = new Scanner(System.in);
         int numOfCodes = sc.nextInt();
