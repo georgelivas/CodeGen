@@ -18,14 +18,9 @@ public class UserInt {
 
         if (numOfCols == 2) {
             for (int i = 0; i < divNumOfPasswords; i++) {
-                System.out.println(
-                        "_____________________\n" +
-                        "|" +  PassGen.generateCode(1) + {"|"
-                );
+
             }
         }
-
-
 
         PassGen.generateCode(100);
     }
