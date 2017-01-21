@@ -1,27 +1,81 @@
 package com.glivas.passGen;
 
+import java.util.Scanner;
+
 public class UserInt {
 
-    public static void loadTUI (int numOfCodes) {
+    public final static void clearConsole() {
+        try {
+            final String os = System.getProperty("os.name");
+
+            if (os.contains("Windows"))
+            {
+                Runtime.getRuntime().exec("cls");
+            }
+            else
+            {
+                Runtime.getRuntime().exec("clear");
+            }
+        }
+
+        catch (final Exception e) {
+
+        }
+    }
+
+    public static void startCodeGen () {
         PrintLogo.codeGen(1);
+
+        Scanner sc = new Scanner(System.in);
+        int numOfCodes = sc.nextInt();
+
+        clearConsole();
+        UserInt.loadTUI(numOfCodes);
+    }
+
+    public static void loadTUI (int numOfCodes) {
 
         int numOfCols = 1;
         int divNumOfPasswords = 1;
 
-        if (numOfCodes < 50) {
-            numOfCols = 1;
+        if (numOfCodes < 20 ){
             divNumOfPasswords = numOfCodes;
-        } else if (numOfCodes >= 50 && numOfCodes < 100) {
+        } else if (numOfCodes >= 20 && numOfCodes <= 50) {
             numOfCols = 2;
             divNumOfPasswords = numOfCodes/2;
+        } else if (numOfCodes >= 50 && numOfCodes <= 100) {
+            numOfCols = 3;
+            divNumOfPasswords = numOfCodes/3;
         }
 
-        if (numOfCols == 2) {
+
+        if (numOfCols == 1) {
             for (int i = 0; i < divNumOfPasswords; i++) {
+                System.out.println((char)27 + "[31;m" + "--------------------");
+                PassGen.generateCode(1);
+                System.out.println();
 
             }
         }
 
-        PassGen.generateCode(100);
+
+        if (numOfCols == 2) {
+            for (int i = 0; i < divNumOfPasswords; i++) {
+                System.out.println((char)27 + "[31;m" + "-------------------  -------------------");
+                PassGen.generateCode(2);
+                System.out.println();
+
+            }
+        }
+
+
+        if (numOfCols == 3) {
+            for (int i = 0; i < divNumOfPasswords; i++) {
+                System.out.println((char)27 + "[31;m" + "-------------------  -------------------  -------------------");
+                PassGen.generateCode(3);
+                System.out.println();
+
+            }
+        }
     }
 }

@@ -125,7 +125,7 @@ public class PassGen {
     public static void generateCode (int numOfPasswords) {
         for (int i = 0; i < numOfPasswords; i++) {
 
-            System.out.println((char)27 + "[36;m" + new PassGen(4, 4, 4, 4).getPassword());
+            System.out.print((char)27 + "[36;m" + "| " + new PassGen(4, 4, 4, 4).getPassword() + " |");
         }
     }
 }
