@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fa901b9-3b63-476b-80e1-52c19051d151" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/glivas/passGen/PrintLogo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/glivas/passGen/UserInt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/codeGenerator/com/glivas/passGen/Main.class" afterPath="$PROJECT_DIR$/out/production/codeGenerator/com/glivas/passGen/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/codeGenerator/com/glivas/passGen/PassGen.class" afterPath="$PROJECT_DIR$/out/production/codeGenerator/com/glivas/passGen/PassGen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/glivas/passGen/Main.java" afterPath="$PROJECT_DIR$/src/com/glivas/passGen/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/glivas/passGen/PassGen.java" afterPath="$PROJECT_DIR$/src/com/glivas/passGen/PassGen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/glivas/passGen/PrintLogo.java" afterPath="$PROJECT_DIR$/src/com/glivas/passGen/PrintLogo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/glivas/passGen/UserInt.java" afterPath="$PROJECT_DIR$/src/com/glivas/passGen/UserInt.java" />
     </list>
     <ignored path="codeGenerator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,30 +29,29 @@
         <entry file="file://$PROJECT_DIR$/src/com/glivas/passGen/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
               <folding>
-                <element signature="e#93#94#0" expanded="true" />
                 <element signature="e#129#130#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserInt.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserInt.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/glivas/passGen/UserInt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.879017">
+              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrintLogo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrintLogo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/glivas/passGen/PrintLogo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5294118">
-              <caret line="18" column="80" selection-start-line="18" selection-start-column="80" selection-end-line="18" selection-end-column="80" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -72,6 +66,8 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#148#149#0" expanded="true" />
                 <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#4018#4019#0" expanded="true" />
+                <element signature="e#4054#4055#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,8 +109,8 @@
         <option value="$PROJECT_DIR$/src/com/glivas/passGen/PassGen.java" />
         <option value="$PROJECT_DIR$/src/com/glivas/passGen/Gui.java" />
         <option value="$PROJECT_DIR$/src/com/glivas/passGen/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/glivas/passGen/UserInt.java" />
         <option value="$PROJECT_DIR$/src/com/glivas/passGen/PrintLogo.java" />
+        <option value="$PROJECT_DIR$/src/com/glivas/passGen/UserInt.java" />
       </list>
     </option>
   </component>
@@ -499,12 +495,12 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35180724" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35180724" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1881259" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -578,6 +574,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#148#149#0" expanded="true" />
             <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#4018#4019#0" expanded="true" />
+            <element signature="e#4054#4055#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -622,7 +620,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#93#94#0" expanded="true" />
             <element signature="e#129#130#0" expanded="true" />
           </folding>
         </state>
@@ -636,6 +633,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#148#149#0" expanded="true" />
             <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#4018#4019#0" expanded="true" />
+            <element signature="e#4054#4055#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -680,7 +679,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#93#94#0" expanded="true" />
             <element signature="e#129#130#0" expanded="true" />
           </folding>
         </state>
@@ -694,6 +692,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#148#149#0" expanded="true" />
             <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#4018#4019#0" expanded="true" />
+            <element signature="e#4054#4055#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -738,7 +738,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#93#94#0" expanded="true" />
             <element signature="e#129#130#0" expanded="true" />
           </folding>
         </state>
@@ -752,6 +751,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#148#149#0" expanded="true" />
             <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#4018#4019#0" expanded="true" />
+            <element signature="e#4054#4055#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -796,7 +797,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#93#94#0" expanded="true" />
             <element signature="e#129#130#0" expanded="true" />
           </folding>
         </state>
@@ -810,6 +810,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#148#149#0" expanded="true" />
             <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#4018#4019#0" expanded="true" />
+            <element signature="e#4054#4055#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -854,7 +856,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#93#94#0" expanded="true" />
             <element signature="e#129#130#0" expanded="true" />
           </folding>
         </state>
@@ -868,6 +869,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#148#149#0" expanded="true" />
             <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#4018#4019#0" expanded="true" />
+            <element signature="e#4054#4055#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -919,7 +922,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
           <folding>
-            <element signature="e#93#94#0" expanded="true" />
             <element signature="e#129#130#0" expanded="true" />
           </folding>
         </state>
@@ -933,6 +935,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#148#149#0" expanded="true" />
             <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#4018#4019#0" expanded="true" />
+            <element signature="e#4054#4055#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -950,7 +954,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding>
-            <element signature="e#93#94#0" expanded="true" />
             <element signature="e#129#130#0" expanded="true" />
           </folding>
         </state>
@@ -964,6 +967,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#148#149#0" expanded="true" />
             <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#4018#4019#0" expanded="true" />
+            <element signature="e#4054#4055#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1021,6 +1026,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/glivas/passGen/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+          <folding>
+            <element signature="e#129#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/glivas/passGen/PassGen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1029,33 +1044,24 @@
             <element signature="imports" expanded="true" />
             <element signature="e#148#149#0" expanded="true" />
             <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#4018#4019#0" expanded="true" />
+            <element signature="e#4054#4055#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/glivas/passGen/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="e#93#94#0" expanded="true" />
-            <element signature="e#129#130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/glivas/passGen/UserInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/glivas/passGen/PrintLogo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5294118">
-          <caret line="18" column="80" selection-start-line="18" selection-start-column="80" selection-end-line="18" selection-end-column="80" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/glivas/passGen/UserInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.879017">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding />
         </state>
       </provider>
