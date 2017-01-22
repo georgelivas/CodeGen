@@ -122,10 +122,19 @@ public class PassGen {
         return this.password;
     }
 
-    public static void generateCode (int numOfPasswords) {
-        for (int i = 0; i < numOfPasswords; i++) {
-
-            System.out.print((char)27 + "[36;m" + "| " + new PassGen(4, 4, 4, 4).getPassword() + " |");
+    public static String generateCode (int numOfPasswords) {
+        for (int i = 0; i < numOfPasswords-1; i++) {
+           return new PassGen(4, 4, 4, 4).getPassword();
+//            System.out.print((char)27
+//                    + "[31;m"
+//                    + "| "
+//                    + (char)27
+//                    + "[36;m"
+//                    + new PassGen(4, 4, 4, 4).getPassword()
+//                    + (char)27
+//                    + "[31;m"
+//                    + " |");
         }
+        return new PassGen(4, 4, 4, 4).getPassword();
     }
 }

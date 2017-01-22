@@ -6,3 +6,7 @@ public class Main {
         UserInt.startCodeGen();
     }
 }
+
+//To run in console:
+//compile: javac com/glivas/passGen/*.java
+//run main: java com.glivas.passGen.Main
