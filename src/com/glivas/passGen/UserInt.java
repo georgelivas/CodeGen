@@ -16,43 +16,6 @@ public class UserInt {
         System.out.flush();
     }
 
-    public static void createDocument (int numOfPasswords) {
-
-        boolean prem = false;
-
-        System.out.print("\n"
-                + (char)27
-                + "[32;m"
-                + numOfPasswords
-                + " passwords have been generated."
-                + (char)27
-                + "[33;m"
-                + "\n\nDo you want to export them in a file?(.txt) [y/n]: ");
-        Scanner sc = new Scanner(System.in);
-        String des = sc.next();
-
-        if(des == "y"){
-            prem = true;
-        }
-
-        if (prem == true) {
-
-            Writer writer = null;
-
-            try {
-                writer = new BufferedWriter(new OutputStreamWriter(
-                        new FileOutputStream("generatedPasswords.txt"), "utf-8"));
-                writer.write("Its working");
-                writer.write("Its working");
-                writer.write("\nby George Livas");
-            } catch (IOException ex) {
-
-            } finally {
-                try {writer.close();} catch (Exception ex) {}
-            }
-        }
-    }
-
     public static void startCodeGen () {
 
         clearScreen();
@@ -69,6 +32,26 @@ public class UserInt {
 
 
         UserInt.loadTUI(numOfCodes);
+    }
+
+    public static void terminateCodeGen (int numOfPasswords) {
+
+        System.out.print("\n"
+                + (char)27
+                + "[32;m"
+                + numOfPasswords
+                + " passwords have been generated."
+                + (char)27
+                + "[33;m"
+                + "\n\nDo you want to export them in a file?(.txt) [y/n]: ");
+        Scanner sc = new Scanner(System.in);
+        String des = sc.next();
+
+        if(des == "y"){
+            Holder.createDocument(numOfPasswords);
+        }
+
+
     }
 
     public static void loadTUI (int numOfCodes) {
@@ -97,7 +80,7 @@ public class UserInt {
                 Holder.printCodes();
                 System.out.println();
             }
-            createDocument(numOfCodes);
+            terminateCodeGen(numOfCodes);
         }
 
 
@@ -108,7 +91,7 @@ public class UserInt {
                 Holder.printCodes();
                 System.out.println();
             }
-            createDocument(numOfCodes);
+            terminateCodeGen(numOfCodes);
         }
 
 
@@ -119,7 +102,7 @@ public class UserInt {
                 Holder.printCodes();
                 System.out.println();
             }
-            createDocument(numOfCodes);
+            terminateCodeGen(numOfCodes);
         }
 
 
@@ -130,7 +113,7 @@ public class UserInt {
                 Holder.printCodes();
                 System.out.println();
             }
-            createDocument(numOfCodes);
+            terminateCodeGen(numOfCodes);
         }
     }
 }

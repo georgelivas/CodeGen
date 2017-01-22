@@ -1,5 +1,7 @@
 package com.glivas.passGen;
 
+import java.io.*;
+
 public class Holder {
 
      static String[] keyHolder;
@@ -24,6 +26,23 @@ public class Holder {
                 + " |"
             );
 
+        }
+    }
+
+    public static void createDocument (int numOfPasswords) {
+
+        Writer writer = null;
+
+        try {
+            writer = new BufferedWriter(new OutputStreamWriter(
+                    new FileOutputStream("generatedPasswords.txt"), "utf-8"));
+            writer.write("Its working");
+            writer.write("Its working");
+            writer.write("\nby George Livas");
+        } catch (IOException ex) {
+
+        } finally {
+            try {writer.close();} catch (Exception ex) {}
         }
     }
 }
