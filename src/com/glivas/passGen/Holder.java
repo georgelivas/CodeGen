@@ -9,9 +9,9 @@ public class Holder {
         this.numOfPasswords = numOfPasswords;
     }
     public static String passwordHolder () {
-        for (int i = 0; i < numOfPasswords; i++) {
+        for (int i = 0; i < numOfPasswords-1; i++) {
             keyHolder[i] = PassGen.generateCode(1);
         }
-        return
+        return keyHolder[numOfPasswords-1] = PassGen.generateCode(1);
     }
 }
