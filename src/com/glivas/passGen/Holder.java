@@ -1,6 +1,8 @@
 package com.glivas.passGen;
 
 import java.io.*;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 public class Holder {
 
@@ -29,21 +31,48 @@ public class Holder {
         }
     }
 
-    public static void createDocument (int numOfPasswords) {
+    public static void createDocument () {
 
-        Writer writer = null;
-
+        BufferedWriter writer = null;
         try {
-            writer = new BufferedWriter(new OutputStreamWriter(
-                    new FileOutputStream("generatedPasswords.txt"), "utf-8"));
-            writer.write("Its working");
-            writer.write("Its working");
-            writer.write("\nby George Livas");
-        } catch (IOException ex) {
+            //create a temporary file
+            String timeLog = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
+            File logFile = new File(timeLog);
 
+            // This will output the full path where the file will be written to...
+            System.out.println(logFile.getCanonicalPath());
+
+            writer = new BufferedWriter(new FileWriter(logFile));
+
+            for (int i = 0; i < keyHolder.length; i++) {
+                writer.write(keyHolder[i]);
+                writer.write("\n");
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
         } finally {
-            try {writer.close();} catch (Exception ex) {}
+            try {
+                // Close the writer regardless of what happens...
+                writer.close();
+            } catch (Exception e) {
+            }
         }
+
+
+
+//        Writer writer = null;
+//
+//        try {
+//            writer = new BufferedWriter(new OutputStreamWriter(
+//                    new FileOutputStream("generatedPasswords.txt"), "utf-8"));
+//            writer.write("Its working");
+//            writer.write("Its working");
+//            writer.write("\nby George Livas");
+//        } catch (IOException ex) {
+//
+//        } finally {
+//            try {writer.close();} catch (Exception ex) {}
+//        }
     }
 }
 

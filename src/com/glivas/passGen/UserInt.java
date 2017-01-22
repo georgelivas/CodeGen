@@ -48,7 +48,7 @@ public class UserInt {
         String des = sc.next();
 
         if(des == "y"){
-            Holder.createDocument(numOfPasswords);
+            Holder.createDocument();
         }
 
 
