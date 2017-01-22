@@ -25,7 +25,7 @@ public class UserInt {
 
     public static void startCodeGen () {
         PrintLogo.codeGen(1);
-        System.out.print("Insert number of passwords:");
+        System.out.print((char)27 + "[4;m" + "Insert number of passwords:");
 
         Scanner sc = new Scanner(System.in);
         int numOfCodes = sc.nextInt();
@@ -39,12 +39,12 @@ public class UserInt {
         int numOfCols = 1;
         int divNumOfPasswords = 1;
 
-        if (numOfCodes < 20 ){
+        if (numOfCodes < 25 ){
             divNumOfPasswords = numOfCodes;
-        } else if (numOfCodes >= 20 && numOfCodes <= 50) {
+        } else if (numOfCodes >= 25 && numOfCodes <= 50) {
             numOfCols = 2;
             divNumOfPasswords = numOfCodes/2;
-        } else if (numOfCodes >= 50 && numOfCodes <= 100) {
+        } else if (numOfCodes > 50 && numOfCodes <= 100) {
             numOfCols = 3;
             divNumOfPasswords = numOfCodes/3;
         }
@@ -72,7 +72,7 @@ public class UserInt {
 
         if (numOfCols == 3) {
             for (int i = 0; i < divNumOfPasswords; i++) {
-                System.out.println((char)27 + "[31;m" + "-------------------  -------------------  -------------------");
+                System.out.println((char)27 + "[31;m" + "-------------------  ------------------  -------------------");
                 PassGen.generateCode(3);
                 System.out.println();
 
