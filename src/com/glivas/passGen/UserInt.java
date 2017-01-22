@@ -93,7 +93,8 @@ public class UserInt {
         if (numOfCols == 1) {
             for (int i = 0; i < divNumOfPasswords; i++) {
                 System.out.println((char)27 + "[31;m" + "--------------------");
-                PassGen.generateCode(1);
+                Holder.genCodes(1);
+                Holder.printCodes();
                 System.out.println();
             }
             createDocument(numOfCodes);
@@ -103,6 +104,8 @@ public class UserInt {
         if (numOfCols == 2) {
             for (int i = 0; i < divNumOfPasswords; i++) {
                 System.out.println((char)27 + "[31;m" + "-------------------  -------------------");
+                Holder.genCodes(2);
+                Holder.printCodes();
                 System.out.println();
             }
             createDocument(numOfCodes);
@@ -112,7 +115,8 @@ public class UserInt {
         if (numOfCols == 3) {
             for (int i = 0; i < divNumOfPasswords; i++) {
                 System.out.println((char) 27 + "[31;m" + "-------------------  ------------------  -------------------");
-                PassGen.generateCode(3);
+                Holder.genCodes(3);
+                Holder.printCodes();
                 System.out.println();
             }
             createDocument(numOfCodes);
@@ -122,7 +126,8 @@ public class UserInt {
         if (numOfCols == 4) {
             for (int i = 0; i < divNumOfPasswords; i++) {
                 System.out.println((char) 27 + "[31;m" + "-------------------  ------------------  ------------------  -------------------");
-                PassGen.generateCode(4);
+                Holder.genCodes(4);
+                Holder.printCodes();
                 System.out.println();
             }
             createDocument(numOfCodes);
