@@ -35,7 +35,7 @@ public class UserInt {
             prem = true;
         }
 
-        if (prem) {
+        if (prem == true) {
 
             Writer writer = null;
 
@@ -95,7 +95,6 @@ public class UserInt {
                 System.out.println((char)27 + "[31;m" + "--------------------");
                 PassGen.generateCode(1);
                 System.out.println();
-
             }
             createDocument(numOfCodes);
         }
@@ -104,9 +103,7 @@ public class UserInt {
         if (numOfCols == 2) {
             for (int i = 0; i < divNumOfPasswords; i++) {
                 System.out.println((char)27 + "[31;m" + "-------------------  -------------------");
-                PassGen.generateCode(2);
                 System.out.println();
-
             }
             createDocument(numOfCodes);
         }
@@ -117,7 +114,6 @@ public class UserInt {
                 System.out.println((char) 27 + "[31;m" + "-------------------  ------------------  -------------------");
                 PassGen.generateCode(3);
                 System.out.println();
-
             }
             createDocument(numOfCodes);
         }
@@ -128,7 +124,6 @@ public class UserInt {
                 System.out.println((char) 27 + "[31;m" + "-------------------  ------------------  ------------------  -------------------");
                 PassGen.generateCode(4);
                 System.out.println();
-
             }
             createDocument(numOfCodes);
         }
