@@ -5,6 +5,7 @@ import java.io.*;
 public class Holder {
 
     static String[] keyHolder;
+    static int index = 0;
 
     public static void genCodes (int numOfCodes) {
         keyHolder = new String[numOfCodes];
@@ -13,33 +14,33 @@ public class Holder {
         }
     }
 
-    public static void printCodes (){
+    public static void printCodes (int codesPerLine){
 
-        for (int i = 0; i < keyHolder.length; i++) {
+        for (int i = 0; i < codesPerLine; i++) {
             System.out.print((char)27
                 + "[31;m"
                 + "| "
                 + (char)27
                 + "[36;m"
-                + keyHolder[i]
+                + keyHolder[index]
                 + (char)27
                 + "[31;m"
                 + " |"
             );
-
+            index++;
         }
     }
 
     public static void createDocument () {
-        System.out.println(keyHolder.length);
         BufferedWriter writer = null;
         try {
             String fileName = "Generated Codes";
-            File logFile = new File(fileName);
+            File codeFile = new File(fileName);
 
-            System.out.println(logFile.getCanonicalPath());
+            System.out.print((char)27 + "[32;m" + "The file is located at:  ");
+            System.out.println((char)27 + "[31;m" + codeFile.getCanonicalPath());
 
-            writer = new BufferedWriter(new FileWriter(logFile));
+            writer = new BufferedWriter(new FileWriter(codeFile));
             writer.write(
                     "  _____        __    _____       \n" +
                     " / ___/__  ___/ /__ / ___/__ ___ \n" +

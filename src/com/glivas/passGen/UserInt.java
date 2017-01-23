@@ -46,16 +46,26 @@ public class UserInt {
         String des = sc.next();
 
         if(des.equals("y")){
+            clearScreen();
             Holder.createDocument();
+            System.out.println((char)27 + "[36;m" + "\nThanks for dropping by.\nSee you later.\n\n");
+            System.out.println((char)27 + "[32;m" );
+        } else if (des.equals("n")) {
+            System.out.println((char)27 + "[36;m" + "\nThanks for dropping by.\nSee you later.\n\n");
+            System.out.println((char)27 + "[32;m" );
+
         }
 
 
     }
 
+
     public static void loadTUI (int numOfCodes) {
 
         int numOfCols = 1;
         int divNumOfPasswords = 1;
+
+        Holder.genCodes(numOfCodes);
 
         if (numOfCodes < 25 ){
             divNumOfPasswords = numOfCodes;
@@ -74,8 +84,7 @@ public class UserInt {
         if (numOfCols == 1) {
             for (int i = 0; i < divNumOfPasswords; i++) {
                 System.out.println((char)27 + "[31;m" + "|------------------|");
-                Holder.genCodes(1);
-                Holder.printCodes();
+                Holder.printCodes(1);
                 System.out.println();
             }
             terminateCodeGen(numOfCodes);
@@ -85,8 +94,7 @@ public class UserInt {
         if (numOfCols == 2) {
             for (int i = 0; i < divNumOfPasswords; i++) {
                 System.out.println((char)27 + "[31;m" + "|------------------||------------------|");
-                Holder.genCodes(2);
-                Holder.printCodes();
+                Holder.printCodes(2);
                 System.out.println();
             }
             terminateCodeGen(numOfCodes);
@@ -96,8 +104,7 @@ public class UserInt {
         if (numOfCols == 3) {
             for (int i = 0; i < divNumOfPasswords; i++) {
                 System.out.println((char) 27 + "[31;m" + "|------------------||------------------||------------------|");
-                Holder.genCodes(3);
-                Holder.printCodes();
+                Holder.printCodes(3);
                 System.out.println();
             }
             terminateCodeGen(numOfCodes);
@@ -107,8 +114,7 @@ public class UserInt {
         if (numOfCols == 4) {
             for (int i = 0; i < divNumOfPasswords; i++) {
                 System.out.println((char) 27 + "[31;m" + "|------------------||------------------||------------------||------------------|");
-                Holder.genCodes(4);
-                Holder.printCodes();
+                Holder.printCodes(4);
                 System.out.println();
             }
             terminateCodeGen(numOfCodes);
