@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fa901b9-3b63-476b-80e1-52c19051d151" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/codeGenerator/com/glivas/passGen/Holder.class" afterPath="$PROJECT_DIR$/out/production/codeGenerator/com/glivas/passGen/Holder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/codeGenerator/com/glivas/passGen/UserInt.class" afterPath="$PROJECT_DIR$/out/production/codeGenerator/com/glivas/passGen/UserInt.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/glivas/passGen/Holder.class" afterPath="$PROJECT_DIR$/src/com/glivas/passGen/Holder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/glivas/passGen/UserInt.class" afterPath="$PROJECT_DIR$/src/com/glivas/passGen/UserInt.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Generated Codes" afterPath="$PROJECT_DIR$/src/Generated Codes" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/glivas/passGen/Holder.java" afterPath="$PROJECT_DIR$/src/com/glivas/passGen/Holder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/glivas/passGen/UserInt.java" afterPath="$PROJECT_DIR$/src/com/glivas/passGen/UserInt.java" />
     </list>
     <ignored path="codeGenerator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,11 +62,9 @@
       <file leaf-file-name="Holder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/glivas/passGen/Holder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="55" column="30" lean-forward="false" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="450">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -922,11 +917,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/glivas/passGen/Holder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="55" column="30" lean-forward="false" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="450">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
