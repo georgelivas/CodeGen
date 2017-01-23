@@ -6,7 +6,7 @@ import java.util.Calendar;
 
 public class Holder {
 
-     static String[] keyHolder;
+    static String[] keyHolder;
 
     public static void genCodes (int numOfCodes) {
         keyHolder = new String[numOfCodes];
@@ -16,6 +16,7 @@ public class Holder {
     }
 
     public static void printCodes (){
+
         for (int i = 0; i < keyHolder.length; i++) {
             System.out.print((char)27
                 + "[31;m"
@@ -32,57 +33,36 @@ public class Holder {
     }
 
     public static void createDocument () {
-
+        System.out.println(keyHolder.length);
         BufferedWriter writer = null;
         try {
-            //create a temporary file
-            String timeLog = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
-            File logFile = new File(timeLog);
+            String fileName = "Generated Codes";
+            File logFile = new File(fileName);
 
-            // This will output the full path where the file will be written to...
             System.out.println(logFile.getCanonicalPath());
 
             writer = new BufferedWriter(new FileWriter(logFile));
+            writer.write(
+                    "  _____        __    _____       \n" +
+                    " / ___/__  ___/ /__ / ___/__ ___ \n" +
+                    "/ /__/ _ \\/ _  / -_) (_ / -_) _ \\\n" +
+                    "\\___/\\___/\\_,_/\\__/\\___/\\__/_//_/\n" +
+                    "                                 \n");
 
             for (int i = 0; i < keyHolder.length; i++) {
                 writer.write(keyHolder[i]);
                 writer.write("\n");
             }
+            writer.write("\n\nCreated by George Livas");
+
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
             try {
-                // Close the writer regardless of what happens...
+
                 writer.close();
             } catch (Exception e) {
             }
         }
-
-
-
-//        Writer writer = null;
-//
-//        try {
-//            writer = new BufferedWriter(new OutputStreamWriter(
-//                    new FileOutputStream("generatedPasswords.txt"), "utf-8"));
-//            writer.write("Its working");
-//            writer.write("Its working");
-//            writer.write("\nby George Livas");
-//        } catch (IOException ex) {
-//
-//        } finally {
-//            try {writer.close();} catch (Exception ex) {}
-//        }
     }
 }
-
-
-//              System.out.print((char)27
-//                    + "[31;m"
-//                    + "| "
-//                    + (char)27
-//                    + "[36;m"
-//                    + new PassGen(4, 4, 4, 4).getPassword()
-//                    + (char)27
-//                    + "[31;m"
-//                    + " |");

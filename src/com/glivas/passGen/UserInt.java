@@ -1,7 +1,5 @@
 package com.glivas.passGen;
 
-import java.io.IOException;
-import java.io.*;
 import java.util.Scanner;
 
 public class UserInt {
@@ -31,7 +29,7 @@ public class UserInt {
         PrintLogo.codeGen(1);
 
 
-        UserInt.loadTUI(numOfCodes);
+        loadTUI(numOfCodes);
     }
 
     public static void terminateCodeGen (int numOfPasswords) {
@@ -47,7 +45,7 @@ public class UserInt {
         Scanner sc = new Scanner(System.in);
         String des = sc.next();
 
-        if(des == "y"){
+        if(des.equals("y")){
             Holder.createDocument();
         }
 
@@ -75,7 +73,7 @@ public class UserInt {
 
         if (numOfCols == 1) {
             for (int i = 0; i < divNumOfPasswords; i++) {
-                System.out.println((char)27 + "[31;m" + "--------------------");
+                System.out.println((char)27 + "[31;m" + "|------------------|");
                 Holder.genCodes(1);
                 Holder.printCodes();
                 System.out.println();
@@ -86,7 +84,7 @@ public class UserInt {
 
         if (numOfCols == 2) {
             for (int i = 0; i < divNumOfPasswords; i++) {
-                System.out.println((char)27 + "[31;m" + "-------------------  -------------------");
+                System.out.println((char)27 + "[31;m" + "|------------------||------------------|");
                 Holder.genCodes(2);
                 Holder.printCodes();
                 System.out.println();
@@ -97,7 +95,7 @@ public class UserInt {
 
         if (numOfCols == 3) {
             for (int i = 0; i < divNumOfPasswords; i++) {
-                System.out.println((char) 27 + "[31;m" + "-------------------  ------------------  -------------------");
+                System.out.println((char) 27 + "[31;m" + "|------------------||------------------||------------------|");
                 Holder.genCodes(3);
                 Holder.printCodes();
                 System.out.println();
@@ -108,7 +106,7 @@ public class UserInt {
 
         if (numOfCols == 4) {
             for (int i = 0; i < divNumOfPasswords; i++) {
-                System.out.println((char) 27 + "[31;m" + "-------------------  ------------------  ------------------  -------------------");
+                System.out.println((char) 27 + "[31;m" + "|------------------||------------------||------------------||------------------|");
                 Holder.genCodes(4);
                 Holder.printCodes();
                 System.out.println();
