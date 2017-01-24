@@ -28,7 +28,6 @@ public class UserInt {
         clearScreen();
         PrintLogo.codeGen(1);
 
-
         loadTUI(numOfCodes);
     }
 
@@ -53,7 +52,9 @@ public class UserInt {
         } else if (des.equals("n")) {
             System.out.println((char)27 + "[36;m" + "\nThanks for dropping by.\nSee you later.\n\n");
             System.out.println((char)27 + "[32;m" );
-
+        } else {
+            System.err.println("\n" + des + " is NOT a valid answer.");
+            terminateCodeGen(numOfPasswords);
         }
 
 

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fa901b9-3b63-476b-80e1-52c19051d151" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Generated Codes" afterPath="$PROJECT_DIR$/src/Generated Codes" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/codeGenerator/20170122_234512" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/glivas/passGen/UserInt.java" afterPath="$PROJECT_DIR$/src/com/glivas/passGen/UserInt.java" />
     </list>
     <ignored path="codeGenerator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,17 +34,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserInt.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserInt.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/glivas/passGen/UserInt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="405">
+              <caret line="55" column="54" lean-forward="false" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StartUp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StartUp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/glivas/passGen/StartUp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -133,10 +133,10 @@
         <option value="$PROJECT_DIR$/src/com/glivas/passGen/PrintLogo.java" />
         <option value="$PROJECT_DIR$/src/com/glivas/passGen/PassGen.java" />
         <option value="$PROJECT_DIR$/src/com/glivas/passGen/Holder.java" />
-        <option value="$PROJECT_DIR$/src/com/glivas/passGen/UserInt.java" />
         <option value="$PROJECT_DIR$/src/com/glivas/passGen/Main.java" />
         <option value="$PROJECT_DIR$/src/com/glivas/passGen/StartUp.java" />
         <option value="$PROJECT_DIR$/src/Generated Codes" />
+        <option value="$PROJECT_DIR$/src/com/glivas/passGen/UserInt.java" />
       </list>
     </option>
   </component>
@@ -869,8 +869,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/glivas/passGen/UserInt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="405">
+          <caret line="55" column="54" lean-forward="false" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
           <folding />
         </state>
       </provider>
