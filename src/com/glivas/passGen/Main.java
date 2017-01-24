@@ -3,6 +3,11 @@ package com.glivas.passGen;
 public class Main {
 
     public static void main(String[] args) {
-        UserInt.loadTUI(100);
+        StartUp.CodeGen();
+
     }
 }
+
+//To run in console:
+//compile: javac com/glivas/passGen/*.java
+//run main: java com.glivas.passGen.Main
