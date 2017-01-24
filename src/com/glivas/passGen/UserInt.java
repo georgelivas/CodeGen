@@ -53,7 +53,7 @@ public class UserInt {
             System.out.println((char)27 + "[36;m" + "\nThanks for dropping by.\nSee you later.\n\n");
             System.out.println((char)27 + "[32;m" );
         } else {
-            System.err.println("\n" + des + " is NOT a valid answer.");
+            System.err.println((char)27 + "[31;m" + "\n\n" + des + " is NOT a valid answer.");
             terminateCodeGen(numOfPasswords);
         }
 
