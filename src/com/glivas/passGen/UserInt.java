@@ -14,22 +14,27 @@ public class UserInt {
         System.out.flush();
     }
 
-    public static void startCodeGen () {
+    public static void startCodeGen (boolean error) {
 
-        clearScreen();
-
-        PrintLogo.codeGen(1);
+        if (error == false) {
+            clearScreen();
+            PrintLogo.codeGen(1);
+        }
         System.out.println();
         //System.out.format("%5d", "Insert number of passwords:");
         System.out.print((char)27 + "[33;m" + "Insert number of passwords:");
 
         Scanner sc = new Scanner(System.in);
-        int numOfCodes = sc.nextInt();
-        clearScreen();
-        PrintLogo.codeGen(1);
+        if (sc.hasNextInt()) {
+            int numOfCodes = sc.nextInt();
+            clearScreen();
+            PrintLogo.codeGen(1);
 
-
-        loadTUI(numOfCodes);
+            loadTUI(numOfCodes);
+        } else {
+            System.out.print((char)27 + "[31;m" + "NOT valid input.\n");
+            startCodeGen(true);
+        }
     }
 
     public static void terminateCodeGen (int numOfPasswords) {
@@ -53,7 +58,9 @@ public class UserInt {
         } else if (des.equals("n")) {
             System.out.println((char)27 + "[36;m" + "\nThanks for dropping by.\nSee you later.\n\n");
             System.out.println((char)27 + "[32;m" );
-
+        } else {
+            System.err.println((char)27 + "[31;m" + "\n\n\n" + des + " is NOT a valid answer.");
+            terminateCodeGen(numOfPasswords);
         }
 
 

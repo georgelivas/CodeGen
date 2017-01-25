@@ -20,7 +20,7 @@ public class StartUp {
         Scanner sc = new Scanner(System.in);
 
         if (sc.hasNextLine()) {
-            UserInt.startCodeGen();
+            UserInt.startCodeGen(false);
         }
     }
 }
