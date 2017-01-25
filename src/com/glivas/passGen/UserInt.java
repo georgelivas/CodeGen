@@ -32,14 +32,9 @@ public class UserInt {
 
             loadTUI(numOfCodes);
         } else {
-            System.out.print((char)27 + "[31;m" + "NOT valid input.");
+            System.out.print((char)27 + "[31;m" + "NOT valid input.\n");
             startCodeGen(true);
         }
-//        int numOfCodes = sc.nextInt();
-//        clearScreen();
-//        PrintLogo.codeGen(1);
-//
-//        loadTUI(numOfCodes);
     }
 
     public static void terminateCodeGen (int numOfPasswords) {
