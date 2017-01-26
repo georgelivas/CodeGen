@@ -29,7 +29,11 @@ public class UserInt {
             int numOfCodes = sc.nextInt();
             clearScreen();
             PrintLogo.codeGen(1);
-            loadCodes(numOfCodes);
+            ProgressBar.delay(5000);
+
+//            loadCodes(numOfCodes);
+//            clearScreen();
+//            PrintLogo.codeGen(1);
 
             loadTUI(numOfCodes);
         } else {
