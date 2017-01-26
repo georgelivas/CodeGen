@@ -29,6 +29,7 @@ public class UserInt {
             int numOfCodes = sc.nextInt();
             clearScreen();
             PrintLogo.codeGen(1);
+            loadCodes(numOfCodes);
 
             loadTUI(numOfCodes);
         } else {
@@ -62,8 +63,17 @@ public class UserInt {
             System.err.println((char)27 + "[31;m" + "\n\n\n" + des + " is NOT a valid answer.");
             terminateCodeGen(numOfPasswords);
         }
+    }
 
+    public static void loadCodes (int numOfCodes) {
+        int delay = numOfCodes * 20;
+        System.out.println("Generating codes...");
 
+        try {
+            Thread.sleep(delay);
+        } catch(InterruptedException ex) {
+            Thread.currentThread().interrupt();
+        }
     }
 
 
