@@ -6,7 +6,7 @@ import static com.glivas.passGen.UserInt.clearScreen;
 
 public class ProgressBar {
 
-    public static void delay(long milliseconds) {
+    public static void bar(long milliseconds) {
         String bar = "[-----------------------------------------------]";
         String icon = "@";
 

@@ -30,10 +30,8 @@ public class UserInt {
             clearScreen();
             PrintLogo.codeGen(1);
 
-            ProgressBar.delay(5000);
-
-//            loadCodes(numOfCodes);
-//
+            calculateTime(numOfCodes);
+            //ProgressBar.bar(5000);
 
             loadTUI(numOfCodes);
         } else {
@@ -69,15 +67,9 @@ public class UserInt {
         }
     }
 
-    public static void loadCodes (int numOfCodes) {
-        int delay = numOfCodes * 20;
-        System.out.println("Generating codes...");
-
-        try {
-            Thread.sleep(delay);
-        } catch(InterruptedException ex) {
-            Thread.currentThread().interrupt();
-        }
+    public static void calculateTime (int numOfCodes) {
+        int milliseconds = numOfCodes * 20;
+        ProgressBar.bar(milliseconds);
     }
 
 
