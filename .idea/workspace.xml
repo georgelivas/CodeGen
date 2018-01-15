@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="codeGenerator:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5fa901b9-3b63-476b-80e1-52c19051d151" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/codeGenerator_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/codeGenerator/Generated Codes" afterPath="$PROJECT_DIR$/out/production/codeGenerator/Generated Codes" />
-      <change beforePath="$PROJECT_DIR$/out/production/codeGenerator/com/glivas/passGen/Main.class" afterPath="$PROJECT_DIR$/out/production/codeGenerator/com/glivas/passGen/Main.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/codeGenerator/com/glivas/passGen/StartUp.class" afterPath="$PROJECT_DIR$/out/production/codeGenerator/com/glivas/passGen/StartUp.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/codeGenerator/com/glivas/passGen/UserInt.class" afterPath="$PROJECT_DIR$/out/production/codeGenerator/com/glivas/passGen/UserInt.class" />
-      <change beforePath="$PROJECT_DIR$/src/com/glivas/passGen/Holder.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/glivas/passGen/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/glivas/passGen/PassGen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/glivas/passGen/PrintLogo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/glivas/passGen/PrintLogo.java" afterPath="$PROJECT_DIR$/src/com/glivas/passGen/PrintLogo.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/glivas/passGen/ProgressBar.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/glivas/passGen/SpecialCharRange.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/glivas/passGen/StartUp.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/glivas/passGen/StartUp.java" afterPath="$PROJECT_DIR$/src/com/glivas/passGen/StartUp.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/glivas/passGen/UserInt.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/glivas/passGen/UserInt.java" afterPath="$PROJECT_DIR$/src/com/glivas/passGen/UserInt.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/glivas/passGen/codegen$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/glivas/passGen/codegen.class" afterPath="" />
     </list>
     <ignored path="codeGenerator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/glivas/passGen/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="e#93#94#0" expanded="true" />
                 <element signature="e#126#127#0" expanded="true" />
@@ -86,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Generated Codes" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Generated Codes" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Generated Codes">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-2535">
@@ -167,6 +157,24 @@
             <path>
               <item name="Code-Generator" type="b2602c69:ProjectViewProjectNode" />
               <item name="Code-Generator" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Code-Generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Code-Generator" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Code-Generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Code-Generator" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="codeGenerator_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Code-Generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Code-Generator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -205,7 +213,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="940" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -486,7 +494,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1812000" />
+    <option name="totallyTimeSpent" value="2072000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -796,17 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/glivas/passGen/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#93#94#0" expanded="true" />
-            <element signature="e#126#127#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/glivas/passGen/PassGen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -851,16 +848,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/glivas/passGen/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#93#94#0" expanded="true" />
+            <element signature="e#126#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>codeGenerator:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
