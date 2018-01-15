@@ -15,23 +15,12 @@ public class UserInt {
     }
 
     public static void startCodeGen (boolean error) {
-
-        if (error == false) {
-            clearScreen();
-            PrintLogo.codeGen(1);
-        }
         System.out.println();
-        //System.out.format("%5d", "Insert number of passwords:");
         System.out.print((char)27 + "[33;m" + "Insert number of passwords:");
 
         Scanner sc = new Scanner(System.in);
         if (sc.hasNextInt()) {
             int numOfCodes = sc.nextInt();
-            clearScreen();
-            PrintLogo.codeGen(1);
-
-            calculateTime(numOfCodes);
-            //ProgressBar.bar(5000);
 
             loadTUI(numOfCodes);
         } else {
@@ -66,12 +55,6 @@ public class UserInt {
             terminateCodeGen(numOfPasswords);
         }
     }
-
-    public static void calculateTime (int numOfCodes) {
-        int milliseconds = numOfCodes * 20;
-        ProgressBar.bar(milliseconds);
-    }
-
 
     public static void loadTUI (int numOfCodes) {
 
