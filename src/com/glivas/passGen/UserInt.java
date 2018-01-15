@@ -30,6 +30,9 @@ public class UserInt {
             clearScreen();
             PrintLogo.codeGen(1);
 
+            calculateTime(numOfCodes);
+            //ProgressBar.bar(5000);
+
             loadTUI(numOfCodes);
         } else {
             System.out.print((char)27 + "[31;m" + "NOT valid input.\n");
@@ -62,8 +65,11 @@ public class UserInt {
             System.err.println((char)27 + "[31;m" + "\n\n\n" + des + " is NOT a valid answer.");
             terminateCodeGen(numOfPasswords);
         }
+    }
 
-
+    public static void calculateTime (int numOfCodes) {
+        int milliseconds = numOfCodes * 20;
+        ProgressBar.bar(milliseconds);
     }
 
 
