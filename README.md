@@ -26,7 +26,7 @@ The generated codes are unpredictable and the possibility of a code been generat
 ```
 java -jar codeGenerator.jar 
 ```
-## Demo
+<h2>Demo</h2>
 <video width="100%" controls autoplay>
   <source src="./Readme_resources/codegen.mov" type="video/mp4">
 </video>
