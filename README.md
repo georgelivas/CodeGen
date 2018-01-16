@@ -30,6 +30,7 @@ java -jar codeGenerator.jar
 <video width="100%" controls autoplay>
   <source src="./Readme_resources/codegen.mov" type="video/mp4">
 </video>
+
 # System Requirements
 
 * Java 1.8 
