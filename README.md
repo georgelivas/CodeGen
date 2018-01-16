@@ -1,4 +1,4 @@
-[logo](./Readme_resources/logo.png)
+![logo](./Readme_resources/logo.png)
 # What is CodeGen?
 CodeGen is a code generator which can create codes of 16 characters long and the 
 user haves the ability to export them in a text file (.txt). Codegen can create unlimited passwords in seconds.
@@ -27,7 +27,9 @@ The generated codes are unpredictable and the possibility of a code been generat
 java -jar codeGenerator.jar 
 ```
 ## Demo
-[video demo](./Readme_resources/codegen.mov)
+<video width="100%" controls autoplay>
+  <source src="./Readme_resources/codegen.mov" type="video/mp4">
+</video>
 # System Requirements
 
 * Java 1.8 
