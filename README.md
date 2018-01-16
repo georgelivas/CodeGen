@@ -1,6 +1,6 @@
 ![logo](./Readme_resources/logo.png)
 # What is CodeGen?
-CodeGen is a code generator which can create codes of 16 characters long and the 
+CodeGen is a password generator which can create passwords of 16 characters long and the 
 user haves the ability to export them in a text file (.txt). Codegen can create unlimited passwords in seconds. You can also visit the [website](http://georgelivas.github.io/CodeGen/) for more information! 
 
 [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]() [![Visit my Blog](https://img.shields.io/badge/Visit%20my-Blog-brightgreen.svg)](https://georgelivas.github.io)
