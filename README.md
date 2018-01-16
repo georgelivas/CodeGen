@@ -12,9 +12,9 @@ Each password contains:
 **in random order.**
 
 So the outcome is similar to this: 
-> $0GyLs!#fjJ"7P49 .
+> $0GyLs!#fjJ"7P49
 
-The generated codes are unpredictable and the possibility of a code been generated twice is 0,3333333 %.
+The generated codes are unpredictable and the possibility of a code been generated twice is 0,013%.
 
 # Getting Started
 
@@ -27,7 +27,7 @@ The generated codes are unpredictable and the possibility of a code been generat
 java -jar codeGenerator.jar 
 ```
 <h2>Demo</h2>
-<video width="100%" controls autoplay>
+<video width="100%" autoplay loop>
   <source src="./Readme_resources/codegen.mov" type="video/mp4">
   <img src="./Readme_resources/ScreenShot.png">
 </video>
